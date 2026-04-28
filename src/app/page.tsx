@@ -140,25 +140,25 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "15-3",          tag: "15 yard dumpsters",          price: "$250",          period: "3 Days",          description: "1 Ton Included",          button: {
+          id: "15-3",          tag: "15 yard dumpsters",          price: "$295",          period: "3 Days",          description: "1 Ton Included",          button: {
             text: "Call to Reserve",            href: "tel:4028505868"},
           featuresTitle: "Includes:",          features: [
             "1 Ton Weight Limit",            "3 Day Rental",            "Driveway-Safe"],
         },
         {
-          id: "15-7",          tag: "Value",          price: "$280",          period: "7 Days",          description: "1.5 Tons Included",          button: {
+          id: "15-7",          tag: "Value",          price: "$330",          period: "7 Days",          description: "1.5 Tons Included",          button: {
             text: "Call to Reserve",            href: "tel:4028505868"},
           featuresTitle: "Includes:",          features: [
             "1.5 Ton Weight Limit",            "7 Day Rental",            "Driveway-Safe"],
         },
         {
-          id: "20-3",          tag: "Commercial",          price: "$280",          period: "3 Days",          description: "1.5 Tons Included",          button: {
+          id: "20-3",          tag: "Commercial",          price: "$350",          period: "3 Days",          description: "1.5 Tons Included",          button: {
             text: "Call to Reserve",            href: "tel:4028505868"},
           featuresTitle: "Includes:",          features: [
             "1.5 Ton Weight Limit",            "3 Day Rental",            "Heavy Duty"],
         },
         {
-          id: "20-7",          tag: "Contractor",          price: "$325",          period: "7 Days",          description: "2 Tons Included",          button: {
+          id: "20-7",          tag: "Contractor",          price: "$395",          period: "7 Days",          description: "2 Tons Included",          button: {
             text: "Call to Reserve",            href: "tel:4028505868"},
           featuresTitle: "Includes:",          features: [
             "2 Ton Weight Limit",            "7 Day Rental",            "Heavy Duty"],
