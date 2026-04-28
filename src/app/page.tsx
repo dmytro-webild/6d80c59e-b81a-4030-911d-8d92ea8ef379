@@ -140,7 +140,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "15-3",          tag: "Popular",          price: "$250",          period: "3 Days",          description: "1 Ton Included",          button: {
+          id: "15-3",          tag: "15 yard dumpsters",          price: "$250",          period: "3 Days",          description: "1 Ton Included",          button: {
             text: "Call to Reserve",            href: "tel:4028505868"},
           featuresTitle: "Includes:",          features: [
             "1 Ton Weight Limit",            "3 Day Rental",            "Driveway-Safe"],
