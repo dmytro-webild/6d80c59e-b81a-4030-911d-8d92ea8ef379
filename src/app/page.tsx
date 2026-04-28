@@ -158,7 +158,7 @@ export default function LandingPage() {
             "1.5 Ton Weight Limit",            "3 Day Rental",            "Heavy Duty"],
         },
         {
-          id: "20-7",          tag: "Contractor",          price: "$300",          period: "7 Days",          description: "2 Tons Included",          button: {
+          id: "20-7",          tag: "Contractor",          price: "$325",          period: "7 Days",          description: "2 Tons Included",          button: {
             text: "Call to Reserve",            href: "tel:4028505868"},
           featuresTitle: "Includes:",          features: [
             "2 Ton Weight Limit",            "7 Day Rental",            "Heavy Duty"],
@@ -202,7 +202,7 @@ export default function LandingPage() {
         {
           id: "3",          name: "Emily Rodriguez",          date: "Nov 2024",          title: "Realtor",          quote: "Fast, friendly, and very fair pricing.",          tag: "Commercial",          avatarSrc: "http://img.b2bpic.net/free-photo/fumigation_23-2148013411.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/designers-team-working-3d-model_23-2149371886.jpg",          imageAlt: "smiling omaha resident testimonial"},
         {
-          id: "4",          name: "David Kim",          date: "Oct 2024",          title: "General Contractor",          quote: "The dumpsters are new and luxurious.",          tag: "Construction",          avatarSrc: "http://img.b2bpic.net/free-photo/plastic-storage-case_1339-5894.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/old-car-door-yard_23-2149714257.jpg?_wi=2",          imageAlt: "smiling omaha resident testimonial"},
+          id: "4",          name: "David Kim",          date: "Oct 2024",          title: "General Contractor",          quote: "The dumpsters are new and luxurious.",          tag: "Contractor",          avatarSrc: "http://img.b2bpic.net/free-photo/plastic-storage-case_1339-5894.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/old-car-door-yard_23-2149714257.jpg?_wi=2",          imageAlt: "smiling omaha resident testimonial"},
         {
           id: "5",          name: "Jenny Wilson",          date: "Sep 2024",          title: "Homeowner",          quote: "Best experience I've had renting a dumpster in Omaha.",          tag: "Residential",          avatarSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/factory_23-2148098549.jpg?_wi=2",          imageAlt: "smiling omaha resident testimonial"},
       ]}
