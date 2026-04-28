@@ -66,7 +66,7 @@ export default function LandingPage() {
           handle: "@sarah_j",
           testimonial: "Seriously one of the best services I’ve ever requested.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg?_wi=1",
           imageAlt: "sleek black commercial dumpster driveway",
         },
         {
@@ -90,7 +90,7 @@ export default function LandingPage() {
           handle: "@b_builds",
           testimonial: "The dumpsters are new and luxurious.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196195.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196195.jpg?_wi=1",
           imageAlt: "sleek black commercial dumpster driveway",
         },
         {
@@ -112,7 +112,7 @@ export default function LandingPage() {
           href: "sms:4028505868",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg?_wi=2"
       imageAlt="Luxury black dumpster rental in residential driveway"
       mediaAnimation="slide-up"
       avatars={[
@@ -183,7 +183,7 @@ export default function LandingPage() {
         {
           title: "Fast Delivery",
           description: "Need it today? We move quickly with same-day and next-day options.",
-          imageSrc: "http://img.b2bpic.net/free-photo/old-car-door-yard_23-2149714257.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/old-car-door-yard_23-2149714257.jpg?_wi=1",
         },
         {
           title: "Honest Pricing",
@@ -193,7 +193,7 @@ export default function LandingPage() {
         {
           title: "Residential Friendly",
           description: "Driveway-safe placement and clean, professional equipment.",
-          imageSrc: "http://img.b2bpic.net/free-photo/factory_23-2148098549.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/factory_23-2148098549.jpg?_wi=1",
         },
         {
           title: "Contractor Ready",
@@ -332,7 +332,7 @@ export default function LandingPage() {
           quote: "Great communication, friendly, arrived exactly when they said they would.",
           tag: "Residential",
           avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-happy-teenage-girl-posing_23-2148672410.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg?_wi=3",
           imageAlt: "smiling omaha resident testimonial",
         },
         {
@@ -343,7 +343,7 @@ export default function LandingPage() {
           quote: "Seriously one of the best services I’ve ever requested.",
           tag: "Contractor",
           avatarSrc: "http://img.b2bpic.net/free-photo/front-view-man-with-safety-vest-crossed-arms_23-2148269352.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196195.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196195.jpg?_wi=2",
           imageAlt: "smiling omaha resident testimonial",
         },
         {
@@ -365,7 +365,7 @@ export default function LandingPage() {
           quote: "The dumpsters are new and luxurious.",
           tag: "Construction",
           avatarSrc: "http://img.b2bpic.net/free-photo/plastic-storage-case_1339-5894.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/old-car-door-yard_23-2149714257.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/old-car-door-yard_23-2149714257.jpg?_wi=2",
           imageAlt: "smiling omaha resident testimonial",
         },
         {
@@ -376,7 +376,7 @@ export default function LandingPage() {
           quote: "Best experience I've had renting a dumpster in Omaha.",
           tag: "Residential",
           avatarSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/factory_23-2148098549.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/factory_23-2148098549.jpg?_wi=2",
           imageAlt: "smiling omaha resident testimonial",
         },
       ]}
