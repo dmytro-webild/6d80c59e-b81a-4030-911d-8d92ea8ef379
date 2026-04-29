@@ -54,8 +54,8 @@ export default function LandingPage() {
         { name: "Tom R.", handle: "@tom_r_omaha", testimonial: "Professional, clean, and right on time every time.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/fumigation_23-2148013411.jpg", imageAlt: "sleek black commercial dumpster driveway" },
       ]}
       buttons={[
-        { text: "Call (402) 850-5868", href: "tel:4028505868" },
-        { text: "Text for Fast Quote", href: "sms:4028505868" },
+        { text: "Call (402) 850-5868", onClick: () => window.location.href = "tel:4028505868" },
+        { text: "Text for Fast Quote", onClick: () => window.location.href = "sms:4028505868" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg?_wi=2"
       imageAlt="Luxury black dumpster rental in residential driveway"
@@ -102,10 +102,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       plans={[
-        { id: "15-3", tag: "15 yard dumpsters", price: "$250", period: "3 Days", description: "1 Ton Included", button: { text: "Call (402) 850-5868", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1 Ton Weight Limit", "3 Day Rental", "Driveway-Safe"] },
-        { id: "15-7", tag: "Value", price: "$280", period: "7 Days", description: "1.5 Tons Included", button: { text: "Call (402) 850-5868", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "7 Day Rental", "Driveway-Safe"] },
-        { id: "20-3", tag: "Commercial", price: "$280", period: "3 Days", description: "1.5 Tons Included", button: { text: "Call (402) 850-5868", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "3 Day Rental", "Heavy Duty"] },
-        { id: "20-7", tag: "Contractor", price: "$325", period: "7 Days", description: "2 Tons Included", button: { text: "Call (402) 850-5868", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["2 Ton Weight Limit", "7 Day Rental", "Heavy Duty"] },
+        { id: "15-3", tag: "15 yard dumpsters", price: "$250", period: "3 Days", description: "1 Ton Included", button: { text: "Call (402) 850-5868", onClick: () => window.location.href = "tel:4028505868" }, featuresTitle: "Includes:", features: ["1 Ton Weight Limit", "3 Day Rental", "Driveway-Safe"] },
+        { id: "15-7", tag: "Value", price: "$280", period: "7 Days", description: "1.5 Tons Included", button: { text: "Call (402) 850-5868", onClick: () => window.location.href = "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "7 Day Rental", "Driveway-Safe"] },
+        { id: "20-3", tag: "Commercial", price: "$280", period: "3 Days", description: "1.5 Tons Included", button: { text: "Call (402) 850-5868", onClick: () => window.location.href = "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "3 Day Rental", "Heavy Duty"] },
+        { id: "20-7", tag: "Contractor", price: "$325", period: "7 Days", description: "2 Tons Included", button: { text: "Call (402) 850-5868", onClick: () => window.location.href = "tel:4028505868" }, featuresTitle: "Includes:", features: ["2 Ton Weight Limit", "7 Day Rental", "Heavy Duty"] },
       ]}
       title="Dumpster Rental Prices"
       description="Simple, transparent pricing tailored to your project size."
