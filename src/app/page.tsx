@@ -45,7 +45,7 @@ export default function LandingPage() {
       <HeroSplitTestimonial
       background={{ variant: "gradient-bars" }}
       title="Omaha’s Most Trusted Dumpster Rental Company"
-      description="Luxury-level customer service, fast delivery, affordable pricing, and 5-star rated by Omaha homeowners, contractors, and businesses."
+      description="Luxury-level customer service, fast delivery, affordable pricing, and 5-star rated by Omaha homeowners, contractors, and businesses. Call us directly at (402) 850-5868."
       testimonials={[
         { name: "Sarah J.", handle: "@sarah_j", testimonial: "Seriously one of the best services I’ve ever requested.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg?_wi=1", imageAlt: "sleek black commercial dumpster driveway" },
         { name: "Mike D.", handle: "@miked_omaha", testimonial: "Fast, friendly, and very fair pricing.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-happy-teenage-girl-posing_23-2148672410.jpg", imageAlt: "sleek black commercial dumpster driveway" },
@@ -54,7 +54,7 @@ export default function LandingPage() {
         { name: "Tom R.", handle: "@tom_r_omaha", testimonial: "Professional, clean, and right on time every time.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/fumigation_23-2148013411.jpg", imageAlt: "sleek black commercial dumpster driveway" },
       ]}
       buttons={[
-        { text: "Call Now", href: "tel:4028505868" },
+        { text: "Call (402) 850-5868", href: "tel:4028505868" },
         { text: "Text for Fast Quote", href: "sms:4028505868" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg?_wi=2"
@@ -102,10 +102,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       plans={[
-        { id: "15-3", tag: "15 yard dumpsters", price: "$250", period: "3 Days", description: "1 Ton Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1 Ton Weight Limit", "3 Day Rental", "Driveway-Safe"] },
-        { id: "15-7", tag: "Value", price: "$280", period: "7 Days", description: "1.5 Tons Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "7 Day Rental", "Driveway-Safe"] },
-        { id: "20-3", tag: "Commercial", price: "$280", period: "3 Days", description: "1.5 Tons Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "3 Day Rental", "Heavy Duty"] },
-        { id: "20-7", tag: "Contractor", price: "$325", period: "7 Days", description: "2 Tons Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["2 Ton Weight Limit", "7 Day Rental", "Heavy Duty"] },
+        { id: "15-3", tag: "15 yard dumpsters", price: "$250", period: "3 Days", description: "1 Ton Included", button: { text: "Call (402) 850-5868", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1 Ton Weight Limit", "3 Day Rental", "Driveway-Safe"] },
+        { id: "15-7", tag: "Value", price: "$280", period: "7 Days", description: "1.5 Tons Included", button: { text: "Call (402) 850-5868", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "7 Day Rental", "Driveway-Safe"] },
+        { id: "20-3", tag: "Commercial", price: "$280", period: "3 Days", description: "1.5 Tons Included", button: { text: "Call (402) 850-5868", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "3 Day Rental", "Heavy Duty"] },
+        { id: "20-7", tag: "Contractor", price: "$325", period: "7 Days", description: "2 Tons Included", button: { text: "Call (402) 850-5868", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["2 Ton Weight Limit", "7 Day Rental", "Heavy Duty"] },
       ]}
       title="Dumpster Rental Prices"
       description="Simple, transparent pricing tailored to your project size."
@@ -137,7 +137,7 @@ export default function LandingPage() {
         { id: "1", name: "Sarah Johnson", date: "Jan 2025", title: "Homeowner", quote: "Great communication, friendly, arrived exactly when they said they would.", tag: "Residential", avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-happy-teenage-girl-posing_23-2148672410.jpg", imageSrc: "http://img.b2bpic.net/free-photo/outdoors-abstract-shadow-daytime_23-2149080289.jpg?_wi=3", imageAlt: "smiling omaha resident testimonial" },
         { id: "2", name: "Michael Chen", date: "Dec 2024", title: "Developer", quote: "Seriously one of the best services I’ve ever requested.", tag: "Contractor", avatarSrc: "http://img.b2bpic.net/free-photo/front-view-man-with-safety-vest-crossed-arms_23-2148269352.jpg", imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196195.jpg?_wi=2", imageAlt: "smiling omaha resident testimonial" },
         { id: "3", name: "Emily Rodriguez", date: "Nov 2024", title: "Realtor", quote: "Fast, friendly, and very fair pricing.", tag: "Commercial", avatarSrc: "http://img.b2bpic.net/free-photo/fumigation_23-2148013411.jpg", imageSrc: "http://img.b2bpic.net/free-photo/designers-team-working-3d-model_23-2149371886.jpg", imageAlt: "smiling omaha resident testimonial" },
-        { id: "4", name: "David Kim", date: "Oct 2024", title: "General Contractor", quote: "The dumpsters are new and luxurious.", tag: "Contractor", avatarSrc: "http://img.b2bpic.net/free-photo/plastic-storage-case_1339-5894.jpg", imageSrc: "http://img.b2bpic.net/free-photo/old-car-door-yard_23-2149714257.jpg?_wi=2", imageAlt: "smiling omaha resident testimonial" },
+        { id: "4", name: "David Kim", date: "Oct 2024", title: "General Contractor", quote: "The dumpsters are new and luxurious.", tag: "Contractor", avatarSrc: "http://img.b2bpic.net/plastic-storage-case_1339-5894.jpg", imageSrc: "http://img.b2bpic.net/free-photo/old-car-door-yard_23-2149714257.jpg?_wi=2", imageAlt: "smiling omaha resident testimonial" },
         { id: "5", name: "Jenny Wilson", date: "Sep 2024", title: "Homeowner", quote: "Best experience I've had renting a dumpster in Omaha.", tag: "Residential", avatarSrc: "http://img.b2bpic.net/free-photo/full-shot-man-painting-car-door_23-2149714295.jpg", imageSrc: "http://img.b2bpic.net/free-photo/factory_23-2148098549.jpg?_wi=2", imageAlt: "smiling omaha resident testimonial" },
       ]}
       title="Trusted by Omaha Homeowners & Contractors"
@@ -187,7 +187,7 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       tag="Ready to Start?"
       title="Need a Dumpster Today?"
-      description="Call or text us now for a fast quote and same-day delivery options."
+      description="Call or text us now at (402) 850-5868 for a fast quote and same-day delivery options."
       mediaPosition="right"
       imageSrc="http://img.b2bpic.net/free-photo/happy-businesspeople-celebrating-team-success_1262-21062.jpg"
       imageAlt="Successful team work"
