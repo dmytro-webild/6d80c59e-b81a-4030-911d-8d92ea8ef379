@@ -102,8 +102,8 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       plans={[
-        { id: "15-3", tag: "15 yard dumpsters", price: "$295", period: "3 Days", description: "1 Ton Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1 Ton Weight Limit", "3 Day Rental", "Driveway-Safe"] },
-        { id: "15-7", tag: "Value", price: "$330", period: "7 Days", description: "1.5 Tons Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "7 Day Rental", "Driveway-Safe"] },
+        { id: "15-3", tag: "15 yard dumpsters", price: "$250", period: "3 Days", description: "1 Ton Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1 Ton Weight Limit", "3 Day Rental", "Driveway-Safe"] },
+        { id: "15-7", tag: "Value", price: "$280", period: "7 Days", description: "1.5 Tons Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "7 Day Rental", "Driveway-Safe"] },
         { id: "20-3", tag: "Commercial", price: "$350", period: "3 Days", description: "1.5 Tons Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["1.5 Ton Weight Limit", "3 Day Rental", "Heavy Duty"] },
         { id: "20-7", tag: "Contractor", price: "$395", period: "7 Days", description: "2 Tons Included", button: { text: "Call to Reserve", href: "tel:4028505868" }, featuresTitle: "Includes:", features: ["2 Ton Weight Limit", "7 Day Rental", "Heavy Duty"] },
       ]}
@@ -122,7 +122,7 @@ export default function LandingPage() {
         { id: "1", value: "20 Yard Dumpsters", description: "Perfect for mid-sized construction and large home cleanouts." },
         { id: "2", value: "Remodel", description: "Debris, construction & roofing" },
         { id: "3", value: "Demolition", description: "Sheds, structures & site prep" },
-        { id: "4", value: "Commercial", description: "Apartments, foreclosures & retail" },
+        { id: "4", value: "20 Yard Dumpster Services", description: "Professional-grade disposal for any large project." },
       ]}
       title="What We Help With"
       description="From minor garage cleanouts to large-scale construction sites, we cover it all."
